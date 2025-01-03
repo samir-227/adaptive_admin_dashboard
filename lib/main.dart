@@ -1,3 +1,4 @@
+import 'package:adaptive_admin_dashboard/views/dashboard_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,6 +10,8 @@ class AdaptiveAdminDashBoard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp();
+    return const MaterialApp(
+      home: DashBoardView(),
+    );
   }
 }
