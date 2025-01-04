@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-abstract class AssetsStyles {
+abstract class AppStyles {
   static TextStyle styleRegular16(BuildContext context) {
     return TextStyle(
       color: const Color(0xFF064060),
@@ -25,6 +25,15 @@ abstract class AssetsStyles {
       fontSize: getResponsiveFontSize(context, baseFontSize: 16),
       fontFamily: 'Montserrat',
       fontWeight: FontWeight.w500,
+    );
+  }
+
+  static TextStyle styleSemiBold16(BuildContext context) {
+    return TextStyle(
+      color: const Color(0xFF064061),
+      fontSize: getResponsiveFontSize(context, baseFontSize: 16),
+      fontFamily: 'Montserrat',
+      fontWeight: FontWeight.w600,
     );
   }
 
