@@ -1,5 +1,7 @@
+import 'package:adaptive_admin_dashboard/core/models/all_expeneses_item_model.dart';
 import 'package:adaptive_admin_dashboard/core/utls/app_images.dart';
 import 'package:adaptive_admin_dashboard/views/widgets/all_expeneses_header.dart';
+import 'package:adaptive_admin_dashboard/views/widgets/all_expeneses_item.dart';
 import 'package:adaptive_admin_dashboard/views/widgets/all_expeneses_item_header.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +20,12 @@ class AllExpeneses extends StatelessWidget {
             SizedBox(
               height: 24,
             ),
-            AllExpenesesItemHeader(image: ImagesAssets.imageBalance)
+            AllExpensesItem(
+                allExpenesesItemModel: AllExpenesesItemModel(
+                    image: ImagesAssets.imageBalance,
+                    title: 'Balance',
+                    date: 'April 2022',
+                    price: r'$20,129'))
           ],
         ),
       ),
