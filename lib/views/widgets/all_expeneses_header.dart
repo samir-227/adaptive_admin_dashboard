@@ -28,7 +28,10 @@ class AllExpenesesHeader extends StatelessWidget {
               const SizedBox(
                 width: 18,
               ),
-              const Icon(Icons.keyboard_arrow_down_sharp),
+              const Icon(
+                Icons.keyboard_arrow_down_sharp,
+                color: Color(0xFF064061),
+              ),
             ],
           ),
         )
