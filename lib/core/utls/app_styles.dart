@@ -39,7 +39,7 @@ abstract class AppStyles {
 
   static TextStyle styleSemiBold20(BuildContext context) {
     return TextStyle(
-      color: const Color(0xFFFFFFFF),
+      color: const Color(0xFF064061),
       fontSize: getResponsiveFontSize(context, baseFontSize: 20),
       fontFamily: 'Montserrat',
       fontWeight: FontWeight.w600,
