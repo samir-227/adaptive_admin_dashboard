@@ -21,7 +21,6 @@ class DashBoardDesktopLayout extends StatelessWidget {
           width: 32,
         ),
         Expanded(
-          flex: 2,
           child: Column(
             children: [
               AllExpenses(),

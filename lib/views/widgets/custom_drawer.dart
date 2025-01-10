@@ -17,10 +17,10 @@ class CustomDrawer extends StatelessWidget {
       color: Colors.white,
       child: CustomScrollView(
         slivers: [
-          SliverToBoxAdapter(
+          const SliverToBoxAdapter(
             child: UserInfoListTile(
               userInfo: UserInfoModel(
-                image: SvgPicture.asset(ImagesAssets.imageAvatar3),
+                image: ImagesAssets.imageAvatar3,
                 title: 'Lekan Okeowo',
                 subTitle: 'demo@gmail.com',
               ),
