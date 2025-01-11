@@ -6,7 +6,6 @@ abstract class AppStyles {
       color: const Color(0xFF064060),
       fontSize: getResponsiveFontSize(context, baseFontSize: 16),
       fontFamily: 'Montserrat',
-      fontWeight: FontWeight.bold,
     );
   }
 

@@ -1,5 +1,3 @@
-import 'package:flutter_svg/flutter_svg.dart';
-
 class UserInfoModel {
   final String title, subTitle;
   final String image;

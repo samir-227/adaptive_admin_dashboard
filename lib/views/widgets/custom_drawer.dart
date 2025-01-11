@@ -5,8 +5,6 @@ import 'package:adaptive_admin_dashboard/views/widgets/active_and_inactive_item.
 import 'package:adaptive_admin_dashboard/views/widgets/drewer_list_view.dart';
 import 'package:adaptive_admin_dashboard/views/widgets/user_info_listTile.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 class CustomDrawer extends StatelessWidget {
   const CustomDrawer({super.key});
