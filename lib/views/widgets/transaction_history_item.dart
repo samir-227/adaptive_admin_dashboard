@@ -8,9 +8,12 @@ class TransactionHistoryItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
+      elevation: 0,
       color: const Color(0xffFAFAFA),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       child: ListTile(
+        contentPadding:
+            const EdgeInsets.symmetric(horizontal: 16, vertical: 20),
         title: Text(
           transactionItemModel.title,
           style: AppStyles.styleSemiBold16(context),
