@@ -1,5 +1,6 @@
 import 'package:adaptive_admin_dashboard/views/widgets/all_expenses_and_quick_invoice.dart';
 import 'package:adaptive_admin_dashboard/views/widgets/custom_drawer.dart';
+import 'package:adaptive_admin_dashboard/views/widgets/my_card_and_transaction_history_section.dart';
 import 'package:adaptive_admin_dashboard/views/widgets/my_card_section.dart';
 import 'package:adaptive_admin_dashboard/views/widgets/transaction_history_item_list_view.dart';
 import 'package:adaptive_admin_dashboard/views/widgets/transaction_history_section.dart';
@@ -27,7 +28,10 @@ class DashBoardDesktopLayout extends StatelessWidget {
           flex: 3,
           child: AllExpensesAndQuickInvoiceSection(),
         ),
-        Expanded(flex: 1, child: TransactionItemListView())
+        SizedBox(
+          width: 32,
+        ),
+        Expanded(flex: 1, child: MyCardAndTransactionHistorySection())
       ],
     );
   }
