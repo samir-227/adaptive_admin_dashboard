@@ -1,3 +1,4 @@
+import 'package:adaptive_admin_dashboard/core/utls/app_styles.dart';
 import 'package:adaptive_admin_dashboard/views/widgets/transaction_history_header.dart';
 import 'package:flutter/material.dart';
 
@@ -7,7 +8,17 @@ class TransactionHistorySection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: [TransactionHistoryHeader()],
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        TransactionHistoryHeader(),
+        const SizedBox(
+          height: 20,
+        ),
+        Text(
+          '13 April 2022',
+          style: AppStyles.styleMedium16(context),
+        ),
+      ],
     );
   }
 }
