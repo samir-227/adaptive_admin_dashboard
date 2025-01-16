@@ -1,3 +1,4 @@
+import 'package:adaptive_admin_dashboard/views/widgets/income_chart.dart';
 import 'package:adaptive_admin_dashboard/views/widgets/income_section_header.dart';
 import 'package:flutter/material.dart';
 
@@ -7,9 +8,7 @@ class IncomeSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: [
-        IncomeSectionHeader(),
-      ],
+      children: [Expanded(child: IncomeChart())],
     );
   }
 }
