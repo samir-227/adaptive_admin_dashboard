@@ -2,7 +2,7 @@ import 'package:adaptive_admin_dashboard/core/utls/app_styles.dart';
 import 'package:flutter/material.dart';
 
 class AllExpensesHeader extends StatelessWidget {
-  const AllExpensesHeader.AllExpensesHeader({super.key});
+  const AllExpensesHeader({super.key});
 
   @override
   Widget build(BuildContext context) {
