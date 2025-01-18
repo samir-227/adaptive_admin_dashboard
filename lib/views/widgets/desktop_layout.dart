@@ -6,8 +6,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class DashBoardDesktopLayout extends StatelessWidget {
-  const DashBoardDesktopLayout({
+class DashboardDesktopLayout extends StatelessWidget {
+  const DashboardDesktopLayout({
     super.key,
   });
 
