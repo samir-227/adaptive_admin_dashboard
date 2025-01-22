@@ -1,6 +1,7 @@
 import 'package:adaptive_admin_dashboard/views/widgets/custom_background_container.dart';
 import 'package:adaptive_admin_dashboard/views/widgets/income_chart.dart';
 import 'package:adaptive_admin_dashboard/views/widgets/income_details.dart';
+import 'package:adaptive_admin_dashboard/views/widgets/income_section_body.dart';
 import 'package:adaptive_admin_dashboard/views/widgets/income_section_header.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -18,13 +19,7 @@ class IncomeSection extends StatelessWidget {
           SizedBox(
             height: 16,
           ),
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Expanded(child: IncomeChart()),
-              Expanded(flex: 2, child: IncomeDetails()),
-            ],
-          )
+          IncomeSectionBody()
         ],
       ),
     );
