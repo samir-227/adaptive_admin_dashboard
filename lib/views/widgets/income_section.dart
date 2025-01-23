@@ -1,6 +1,4 @@
 import 'package:adaptive_admin_dashboard/views/widgets/custom_background_container.dart';
-import 'package:adaptive_admin_dashboard/views/widgets/income_chart.dart';
-import 'package:adaptive_admin_dashboard/views/widgets/income_details.dart';
 import 'package:adaptive_admin_dashboard/views/widgets/income_section_body.dart';
 import 'package:adaptive_admin_dashboard/views/widgets/income_section_header.dart';
 import 'package:flutter/cupertino.dart';
