@@ -29,7 +29,6 @@ class _DrawerListViewState extends State<DrawerListView> {
         return GestureDetector(
           onTap: () {
             if (activeIndex != index) {
-              print(index);
               setState(() {
                 activeIndex = index;
               });

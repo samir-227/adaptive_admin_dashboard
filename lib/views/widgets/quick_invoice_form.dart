@@ -1,6 +1,5 @@
 import 'package:adaptive_admin_dashboard/views/widgets/custom_bottom.dart';
 import 'package:adaptive_admin_dashboard/views/widgets/titel_text_field.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class QuickInvoiceForm extends StatelessWidget {

@@ -1,5 +1,5 @@
-import 'package:adaptive_admin_dashboard/core/models/all_expeneses_item_model.dart';
-import 'package:adaptive_admin_dashboard/views/widgets/active_and_inactive_expensses_item.dart';
+import 'package:adaptive_admin_dashboard/core/models/all_expenses_item_model.dart';
+import 'package:adaptive_admin_dashboard/views/widgets/active_and_inactive_expenses_item.dart';
 
 import 'package:flutter/material.dart';
 

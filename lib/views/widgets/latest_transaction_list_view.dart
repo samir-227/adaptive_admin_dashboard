@@ -1,6 +1,6 @@
 import 'package:adaptive_admin_dashboard/core/models/user_info_model.dart';
 import 'package:adaptive_admin_dashboard/core/utls/app_images.dart';
-import 'package:adaptive_admin_dashboard/views/widgets/user_info_listTile.dart';
+import 'package:adaptive_admin_dashboard/views/widgets/user_info_list_tile.dart';
 import 'package:flutter/material.dart';
 
 class LatestTransactionListView extends StatelessWidget {

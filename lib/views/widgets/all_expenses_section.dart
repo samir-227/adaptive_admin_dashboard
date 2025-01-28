@@ -1,4 +1,4 @@
-import 'package:adaptive_admin_dashboard/views/widgets/all_expeneses_header.dart';
+import 'package:adaptive_admin_dashboard/views/widgets/all_expenses_header.dart';
 import 'package:adaptive_admin_dashboard/views/widgets/all_expenses_list_view.dart';
 import 'package:adaptive_admin_dashboard/views/widgets/custom_background_container.dart';
 import 'package:flutter/material.dart';
