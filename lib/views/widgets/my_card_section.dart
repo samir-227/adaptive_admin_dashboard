@@ -20,7 +20,6 @@ class _MyCardSectionState extends State<MyCardSection> {
       currentPageIndex = pageController.page!.round();
       setState(() {});
     });
-    // TODO: implement initState
     super.initState();
   }
 

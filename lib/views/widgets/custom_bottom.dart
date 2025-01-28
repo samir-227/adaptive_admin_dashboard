@@ -1,7 +1,5 @@
 import 'package:adaptive_admin_dashboard/core/utls/app_styles.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class CustomBottom extends StatelessWidget {
   const CustomBottom(

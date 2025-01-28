@@ -1,6 +1,5 @@
 import 'package:adaptive_admin_dashboard/views/widgets/custom_drawer.dart';
 import 'package:adaptive_admin_dashboard/views/widgets/dashboard_mobile_layout.dart';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
